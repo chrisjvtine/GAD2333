@@ -1,0 +1,20 @@
+using UnityEngine;
+using System.Collections;
+
+public class Valentine_03 : MonoBehaviour {
+
+	public int length = 4;
+	public int width = 6;
+	public int area;
+	// Use this for initialization
+	void Start () 
+	{
+		area = length * width;
+		print ("The area equals " + area);
+	}
+	
+	// Update is called once per frame
+	void Update () {
+	
+	}
+}
